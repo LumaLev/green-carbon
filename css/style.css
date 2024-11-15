@@ -11,10 +11,8 @@ main {
 
 footer {
   background-color: #f4f8f6;
-  /* Cor de fundo similar ao exemplo */
   padding: 40px 20px;
   color: #3b6355;
-  /* Cor dos textos e ícones */
 }
 
 .footer-container {
@@ -118,7 +116,7 @@ footer {
   color: #0056ff;
 }
 
-/* Responsividade */
+/* Responsividade da página*/
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
