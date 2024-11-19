@@ -141,50 +141,6 @@ footer {
   text-decoration: none;
 }
 
-.footer-links {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.footer-column {
-  min-width: 120px;
-}
-
-.footer-column h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #3b6355;
-  margin-bottom: 10px;
-}
-
-.footer-column a {
-  display: block;
-  color: #5a7f70;
-  text-decoration: none;
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.footer-column a:hover {
-  color: #0056ff;
-}
-
-/* Responsividade da página*/
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 .container-tecs {
   width: 100vw;
   height: 60%;
@@ -515,4 +471,20 @@ footer {
   .transicao-energetica img {
     display: none;
   }
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #004437;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0%;
+  text-align: center;
 }
